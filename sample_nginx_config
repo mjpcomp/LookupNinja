@@ -1,0 +1,29 @@
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name beta.lookup.ninja;
+
+	root /var/www/lookup.ninja/beta;
+	index index.php index.html;
+
+	rewrite ^/whois/(.*)$ /whois/index.php?domain=$1 last;
+	rewrite ^/dns/(.*)$ /dns/index.php?domain=$1 last;
+
+	error_page 404 /site/404.php;
+	error_page 403 /site/403.php;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+	
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+	}
+	
+	location ^~ /site/whois-backend {
+		deny all;
+		return 404;
+	}
+}

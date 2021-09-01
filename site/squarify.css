@@ -1,0 +1,7 @@
+/*
+ -- SQUARIFY --
+ -- Developed by Lookup Ninja --
+*/
+.btn, input, .card, .alert, .jumbotron{
+    border-radius: 0!important;
+}

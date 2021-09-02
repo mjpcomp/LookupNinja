@@ -22,7 +22,7 @@ _* instances using this software have been successful_
 7. **HIGHLY recommended:** Run certbot on your new instance's subdomain/domain
 
 ## Submit your Instance!
-**COMING SOON:** You'll be able to submit your instance, if you'd like anyone to be able to use it, to be listed on Lookup Ninja's official website: [www.lookup.ninja](https://www.lookup.ninja).
+You can submit your instance to [Lookup Ninja's Public Instances Index](https://github.com/Lookup-Ninja/PII), available at [lookup.ninja](http://lookup.ninja). Submission instructions are [available on Github](https://github.com/Lookup-Ninja/PII/blob/main/CONTRIBUTE.md).
 
 ## Credits
 Lookup Ninja was developed by [Jacob Sammon](https://github.com/jacobsammon), with the help of:

@@ -33,7 +33,10 @@ Lookup Ninja was developed by [Jacob Sammon](https://github.com/jacobsammon), wi
 | phpWhois | phpWhois | Handles WHOIS queries | [phpwhois.org](https://phpwhois.org)
 | jQuery | jQuery | Required by Bootstrap for JS | [jquery.com](https://jquery.com)
 
+## `site/whois-backend`
+`site/whois-backend` is from [spacr/phpWhois.org](https://github.com/sparc/phpWhois.org) and is licenced under [GPL-v2](https://github.com/sparc/phpWhois.org/blob/master/License.md).
+
 ## Licence
-Lookup Ninja is licenced under [GPL-v3](https://github.com/Lookup-Ninja/LookupNinja/blob/main/LICENSE).
+Lookup Ninja is licenced under [GPL-v3](https://github.com/Lookup-Ninja/LookupNinja/blob/main/LICENSE), with the exception of the aforementioned directory of `site/whois-backend`.
 
 &copy; Jacob Sammon <[js@eml.pm](mailto:js@eml.pm)> & Lookup Ninja, 2021

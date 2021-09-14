@@ -56,7 +56,7 @@ $thetld = strstr($domainreq, '.');
 
 // tlds with broken ns
 // INCLUDE .
-$ns_issues = array(".co.uk", ".uk", ".me.uk", ".gov.uk", ".mod.uk", ".mil.uk", ".eu");
+$ns_issues = array(".co.uk", ".uk", ".me.uk", ".gov.uk", ".mod.uk", ".mil.uk", ".eu", ".org.uk");
 
 // domain exts for box
 $exts = array('com', 'net', 'org', 'club', 'co', 'site', 'ninja', 'cloud');

@@ -39,4 +39,4 @@ Lookup Ninja was developed by [Jacob Sammon](https://github.com/jacobsammon), wi
 ## Licence
 Lookup Ninja is licenced under [GPL-v3](https://github.com/Lookup-Ninja/LookupNinja/blob/main/LICENSE), with the exception of the aforementioned directory of `site/whois-backend`.
 
-&copy; Jacob Sammon <[js@eml.pm](mailto:js@eml.pm)> & Lookup Ninja, 2021
+&copy; Jacob Sammon <[jacob@sammon.uk](mailto:jacob@sammon.uk)> & Lookup Ninja, 2021
